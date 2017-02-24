@@ -9,4 +9,4 @@ var lightbox;
 var options = {
   valueNames: [ { name: 'datatitle', attr: 'data-title' } ]
 };
-var gallery = ('gallery', options);
+var gallery = new List('gallery', options);
